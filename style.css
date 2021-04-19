@@ -6,7 +6,7 @@
 }
 body{
     /*background: rgba(187, 13, 80, 0.836);*/
-    background: white;
+    background: rgb(119, 116, 116);
     font-family: 'Josefin Sans', sans-serif;
 }
 header{
@@ -146,16 +146,15 @@ address a:hover{
     transition: background .17s ease;
 }
   #myBtn {
-      display: none;
+
     z-index: 1010;
-    width: 32px;
+    width: 40px;
     height: 32px;
     position: fixed;
     bottom: 20px;
     right: 30px;
     background-color: #003ee6;
-    
-    font-size: 20px;
+    font-size: 10px;
     color: #fff;
     text-align: center;
     line-height: 32px;
@@ -200,11 +199,15 @@ address a:hover{
     margin: 12px 0;
     text-transform: uppercase;
 }
+.wrapper{
+    background: rgb(209, 198, 198);
+}
   .wrapper h1{
     font-family: 'Allura', cursive;
     font-size: 100px;
     text-align: center;
     margin-bottom: 50px;
+    color: rgba(187, 13, 80, 0.836);
 
   }
 .partition .part .team-img{
@@ -224,7 +227,7 @@ address a:hover{
       padding: 5px;
   }
   .mine-details{
-      background: teal;
+      background:rgb(131, 8, 76);
       display: flex;
       width: auto;
       padding: 2%;
@@ -240,23 +243,44 @@ address a:hover{
     font-size: 20px;
     margin: 5px;
 }
-  .mine-details a{
+ .imagecv a, .role-contact a{
       text-decoration: none;
       font-size: 20px;
       color:white;
-      background:rgb(1, 87, 87);
+      background:rgb(153, 7, 87);
       padding: 2px;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.425);
   }
-  .mine-details a:hover, button:hover{
-      color:rgb(1, 87, 87);
-      background: rgb(255, 255, 255);
-  }
-  button{
-      background: rgb(1,87,87);
+  .imagecv a:hover, .role-contact a:hover{
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.425);
+      background-color:rgb(90, 2, 50);
       color:white;
-      font-size: 15px;
   }
-  
+  .fa{
+      margin-top: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background: #325fc2;
+    color: white;
+  }
+  .fa-linkedin{
+      background: rgb(22, 143, 190);
+      color: white;
+  }
+  .fa-google{
+    background: #dd4b39;
+    color: white;
+  }
+  .fa:hover{
+      opacity: .8;
+
+  }
   .imagecv img{
       margin: 5px;
       
